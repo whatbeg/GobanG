@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1491450371 source:c:\users\allen\desktop\goclient\clientsocket.cpp
+	"Define.h"
+	"ClientSocket.h"
+	<windows.h>
+	<iostream>
+	<stdio.h>
+
+1491826442 c:\users\allen\desktop\goclient\define.h
+
+1491449886 c:\users\allen\desktop\goclient\clientsocket.h
+
+1491463765 source:c:\users\allen\desktop\goclient\main.cpp
+	"UNChineseChess.h"
+
+1491450420 source:c:\users\allen\desktop\goclient\square.cpp
+	"Square.h"
+
+1491450462 c:\users\allen\desktop\goclient\square.h
+
+1491463178 source:c:\users\allen\desktop\goclient\unchinesechess.cpp
+	"Define.h"
+	"Square.h"
+	"ClientSocket.h"
+	"UNChineseChess.h"
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1491463153 c:\users\allen\desktop\goclient\unchinesechess.h
+

@@ -1,0 +1,25 @@
+2017-04-10 21:11:23  INFO CreateServiceRunnable:81 - CreateServiceRunnable initialization complete!
+2017-04-10 21:11:23  INFO CreateServiceRunnable:93 - CreateServiceRunnable is running...
+2017-04-10 21:11:23  INFO CreateServiceRunnable:418 - Start debug mode!
+2017-04-10 21:19:15  INFO CreateServiceRunnable:81 - CreateServiceRunnable initialization complete!
+2017-04-10 21:19:15  INFO CreateServiceRunnable:93 - CreateServiceRunnable is running...
+2017-04-10 21:19:15  INFO CreateServiceRunnable:418 - Start debug mode!
+2017-04-10 21:21:59  INFO CreateServiceRunnable:81 - CreateServiceRunnable initialization complete!
+2017-04-10 21:21:59  INFO CreateServiceRunnable:93 - CreateServiceRunnable is running...
+2017-04-10 21:21:59  INFO CreateServiceRunnable:102 - Start contest mode!
+2017-04-10 21:21:59  INFO CreateServiceRunnable:112 - The number of registered players: 0
+2017-04-10 21:22:26  INFO CreateServiceRunnable:180 - Accepted 123456789
+2017-04-10 21:22:26  INFO CreateServiceRunnable:196 - Welcome 123456789
+2017-04-10 21:22:26  INFO CreateServiceRunnable:112 - The number of registered players: 1
+2017-04-10 21:22:52  INFO CreateServiceRunnable:180 - Accepted 131130070
+2017-04-10 21:22:52  INFO CreateServiceRunnable:196 - Welcome 131130070
+2017-04-10 21:22:52  INFO CreateServiceRunnable:112 - The number of registered players: 2
+2017-04-10 21:23:29  INFO CreateServiceRunnable:180 - Accepted 131130072
+2017-04-10 21:23:29  INFO CreateServiceRunnable:196 - Welcome 131130072
+2017-04-10 21:23:29  INFO CreateServiceRunnable:112 - The number of registered players: 3
+2017-04-10 21:25:14  INFO CreateServiceRunnable:180 - Accepted 141220009
+2017-04-10 21:25:14  INFO CreateServiceRunnable:196 - Welcome 141220009
+2017-04-10 21:25:14  INFO CreateServiceRunnable:253 - The number of registered players: 4
+2017-04-10 21:25:14  INFO CreateServiceRunnable:257 - No passed player in contest
+2017-04-10 21:25:14  INFO CreateServiceRunnable:259 - Contest start!
+2017-04-10 21:25:14  INFO CreateServiceRunnable:281 - All peer contest done!

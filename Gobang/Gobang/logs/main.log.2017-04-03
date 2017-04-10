@@ -1,0 +1,319 @@
+2017-04-03 18:17:55  INFO ServerProperties:43 - Read server.properties complete! The properties as follows: 
+2017-04-03 18:17:55  INFO ServerProperties:45 - ui.result.list.width=33
+2017-04-03 18:17:55  INFO ServerProperties:45 - ui.width=1064
+2017-04-03 18:17:55  INFO ServerProperties:45 - filter.out=0
+2017-04-03 18:17:55  INFO ServerProperties:45 - step.error.number=3
+2017-04-03 18:17:55  INFO ServerProperties:45 - server.port=10086
+2017-04-03 18:17:55  INFO ServerProperties:45 - chess.board.cols=15
+2017-04-03 18:17:55  INFO ServerProperties:45 - debug.robot.b=2
+2017-04-03 18:17:55  INFO ServerProperties:45 - robot.model=1
+2017-04-03 18:17:55  INFO ServerProperties:45 - ui.height=674
+2017-04-03 18:17:55  INFO ServerProperties:45 - debug.robot.a=1
+2017-04-03 18:17:55  INFO ServerProperties:45 - replay.speed=200
+2017-04-03 18:17:55  INFO ServerProperties:45 - round.steps=70
+2017-04-03 18:17:55  INFO ServerProperties:45 - server.mode=2
+2017-04-03 18:17:55  INFO ServerProperties:45 - contest.rounds=5
+2017-04-03 18:17:55  INFO ServerProperties:45 - chess.board.rows=15
+2017-04-03 18:17:55  INFO ServerProperties:45 - step.timeout=0
+2017-04-03 18:17:55  INFO Main:29 - Startup the main ui
+2017-04-03 18:17:55  INFO Players:66 - Load list file: players-0.list
+2017-04-03 18:17:55  INFO Players:72 - The players authoried in this round as follow:
+2017-04-03 18:17:55  INFO Players:80 - 123456789
+2017-04-03 18:17:55  INFO Players:80 - 131130070
+2017-04-03 18:17:55  INFO Players:80 - 131130072
+2017-04-03 18:17:55  INFO Players:80 - 141220009
+2017-04-03 18:17:55  INFO Players:80 - 151220092
+2017-04-03 18:17:55  INFO Players:80 - 151220093
+2017-04-03 18:17:55  INFO Players:80 - 151220094
+2017-04-03 18:17:55  INFO Players:80 - 151220095
+2017-04-03 18:17:55  INFO Players:80 - 151220096
+2017-04-03 18:17:55  INFO Players:80 - 151220097
+2017-04-03 18:17:55  INFO Players:80 - 151220098
+2017-04-03 18:17:55  INFO Players:80 - 151220099
+2017-04-03 18:17:55  INFO Players:80 - 151220100
+2017-04-03 18:17:55  INFO Players:80 - 151220101
+2017-04-03 18:17:55  INFO Players:80 - 151220103
+2017-04-03 18:17:55  INFO Players:80 - 151220104
+2017-04-03 18:17:55  INFO Players:80 - 151220105
+2017-04-03 18:17:55  INFO Players:80 - 151220106
+2017-04-03 18:17:55  INFO Players:80 - 151220107
+2017-04-03 18:17:55  INFO Players:80 - 151220109
+2017-04-03 18:17:55  INFO Players:80 - 151220110
+2017-04-03 18:17:55  INFO Players:80 - 151220112
+2017-04-03 18:17:55  INFO Players:80 - 151220113
+2017-04-03 18:17:55  INFO Players:80 - 151220114
+2017-04-03 18:17:55  INFO Players:80 - 151220115
+2017-04-03 18:17:55  INFO Players:80 - 151220116
+2017-04-03 18:17:55  INFO Players:80 - 151220117
+2017-04-03 18:17:55  INFO Players:80 - 151220118
+2017-04-03 18:17:55  INFO Players:80 - 151220119
+2017-04-03 18:17:55  INFO Players:80 - 151220121
+2017-04-03 18:17:55  INFO Players:80 - 151220123
+2017-04-03 18:17:55  INFO Players:84 - Total players: 31
+2017-04-03 18:17:55  INFO ClientConnectMonitor:59 - Creat server socket success!
+2017-04-03 18:17:55  INFO ClientConnectMonitor:61 - Server address is: 127.0.1.1:10086
+2017-04-03 18:17:55  INFO ClientConnectMonitor:63 - ClientConnectMonitor initialization complete!
+2017-04-03 18:17:55  INFO ClientConnectMonitor:73 - Start monitor...
+2017-04-03 18:17:55  INFO ClientConnectMonitor:81 - Waitting clients to access...
+2017-04-03 18:18:00 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-0.result
+2017-04-03 18:18:00 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-1.result
+2017-04-03 18:18:00 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-2.result
+2017-04-03 18:18:00 ERROR ContestResults:159 - Load sucess!
+2017-04-03 18:18:19  INFO ServerProperties:43 - Read server.properties complete! The properties as follows: 
+2017-04-03 18:18:19  INFO ServerProperties:45 - ui.result.list.width=33
+2017-04-03 18:18:19  INFO ServerProperties:45 - ui.width=1064
+2017-04-03 18:18:19  INFO ServerProperties:45 - filter.out=0
+2017-04-03 18:18:19  INFO ServerProperties:45 - step.error.number=3
+2017-04-03 18:18:19  INFO ServerProperties:45 - server.port=10086
+2017-04-03 18:18:19  INFO ServerProperties:45 - chess.board.cols=15
+2017-04-03 18:18:19  INFO ServerProperties:45 - debug.robot.b=2
+2017-04-03 18:18:19  INFO ServerProperties:45 - robot.model=1
+2017-04-03 18:18:19  INFO ServerProperties:45 - ui.height=674
+2017-04-03 18:18:19  INFO ServerProperties:45 - debug.robot.a=1
+2017-04-03 18:18:19  INFO ServerProperties:45 - replay.speed=200
+2017-04-03 18:18:19  INFO ServerProperties:45 - round.steps=70
+2017-04-03 18:18:19  INFO ServerProperties:45 - server.mode=2
+2017-04-03 18:18:19  INFO ServerProperties:45 - contest.rounds=5
+2017-04-03 18:18:19  INFO ServerProperties:45 - chess.board.rows=15
+2017-04-03 18:18:19  INFO ServerProperties:45 - step.timeout=0
+2017-04-03 18:18:19  INFO Main:29 - Startup the main ui
+2017-04-03 18:18:19  INFO Players:66 - Load list file: players-0.list
+2017-04-03 18:18:19  INFO Players:72 - The players authoried in this round as follow:
+2017-04-03 18:18:19  INFO Players:80 - 123456789
+2017-04-03 18:18:19  INFO Players:80 - 131130070
+2017-04-03 18:18:19  INFO Players:80 - 131130072
+2017-04-03 18:18:19  INFO Players:80 - 141220009
+2017-04-03 18:18:19  INFO Players:80 - 151220092
+2017-04-03 18:18:19  INFO Players:80 - 151220093
+2017-04-03 18:18:19  INFO Players:80 - 151220094
+2017-04-03 18:18:19  INFO Players:80 - 151220095
+2017-04-03 18:18:19  INFO Players:80 - 151220096
+2017-04-03 18:18:19  INFO Players:80 - 151220097
+2017-04-03 18:18:19  INFO Players:80 - 151220098
+2017-04-03 18:18:19  INFO Players:80 - 151220099
+2017-04-03 18:18:19  INFO Players:80 - 151220100
+2017-04-03 18:18:19  INFO Players:80 - 151220101
+2017-04-03 18:18:19  INFO Players:80 - 151220103
+2017-04-03 18:18:19  INFO Players:80 - 151220104
+2017-04-03 18:18:19  INFO Players:80 - 151220105
+2017-04-03 18:18:19  INFO Players:80 - 151220106
+2017-04-03 18:18:19  INFO Players:80 - 151220107
+2017-04-03 18:18:19  INFO Players:80 - 151220109
+2017-04-03 18:18:19  INFO Players:80 - 151220110
+2017-04-03 18:18:19  INFO Players:80 - 151220112
+2017-04-03 18:18:19  INFO Players:80 - 151220113
+2017-04-03 18:18:19  INFO Players:80 - 151220114
+2017-04-03 18:18:19  INFO Players:80 - 151220115
+2017-04-03 18:18:19  INFO Players:80 - 151220116
+2017-04-03 18:18:19  INFO Players:80 - 151220117
+2017-04-03 18:18:19  INFO Players:80 - 151220118
+2017-04-03 18:18:19  INFO Players:80 - 151220119
+2017-04-03 18:18:19  INFO Players:80 - 151220121
+2017-04-03 18:18:19  INFO Players:80 - 151220123
+2017-04-03 18:18:19  INFO Players:84 - Total players: 31
+2017-04-03 18:18:19  INFO ClientConnectMonitor:59 - Creat server socket success!
+2017-04-03 18:18:19  INFO ClientConnectMonitor:61 - Server address is: 127.0.1.1:10086
+2017-04-03 18:18:19  INFO ClientConnectMonitor:63 - ClientConnectMonitor initialization complete!
+2017-04-03 18:18:19  INFO ClientConnectMonitor:73 - Start monitor...
+2017-04-03 18:18:19  INFO ClientConnectMonitor:81 - Waitting clients to access...
+2017-04-03 18:18:25 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-0.result
+2017-04-03 18:18:25 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-1.result
+2017-04-03 18:18:25 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-2.result
+2017-04-03 18:18:25 ERROR ContestResults:159 - Load sucess!
+2017-04-03 18:23:24  INFO ServerProperties:43 - Read server.properties complete! The properties as follows: 
+2017-04-03 18:23:24  INFO ServerProperties:45 - ui.result.list.width=33
+2017-04-03 18:23:24  INFO ServerProperties:45 - ui.width=1064
+2017-04-03 18:23:24  INFO ServerProperties:45 - filter.out=0
+2017-04-03 18:23:24  INFO ServerProperties:45 - step.error.number=3
+2017-04-03 18:23:24  INFO ServerProperties:45 - server.port=10086
+2017-04-03 18:23:24  INFO ServerProperties:45 - chess.board.cols=15
+2017-04-03 18:23:24  INFO ServerProperties:45 - debug.robot.b=2
+2017-04-03 18:23:24  INFO ServerProperties:45 - robot.model=1
+2017-04-03 18:23:24  INFO ServerProperties:45 - ui.height=674
+2017-04-03 18:23:24  INFO ServerProperties:45 - debug.robot.a=1
+2017-04-03 18:23:24  INFO ServerProperties:45 - replay.speed=200
+2017-04-03 18:23:24  INFO ServerProperties:45 - round.steps=70
+2017-04-03 18:23:24  INFO ServerProperties:45 - server.mode=2
+2017-04-03 18:23:24  INFO ServerProperties:45 - contest.rounds=5
+2017-04-03 18:23:24  INFO ServerProperties:45 - chess.board.rows=15
+2017-04-03 18:23:24  INFO ServerProperties:45 - step.timeout=0
+2017-04-03 18:23:24  INFO Main:29 - Startup the main ui
+2017-04-03 18:23:24  INFO Players:66 - Load list file: players-0.list
+2017-04-03 18:23:24  INFO Players:72 - The players authoried in this round as follow:
+2017-04-03 18:23:24  INFO Players:80 - 123456789
+2017-04-03 18:23:24  INFO Players:80 - 131130070
+2017-04-03 18:23:24  INFO Players:80 - 131130072
+2017-04-03 18:23:24  INFO Players:80 - 141220009
+2017-04-03 18:23:24  INFO Players:80 - 151220092
+2017-04-03 18:23:24  INFO Players:80 - 151220093
+2017-04-03 18:23:24  INFO Players:80 - 151220094
+2017-04-03 18:23:24  INFO Players:80 - 151220095
+2017-04-03 18:23:24  INFO Players:80 - 151220096
+2017-04-03 18:23:24  INFO Players:80 - 151220097
+2017-04-03 18:23:24  INFO Players:80 - 151220098
+2017-04-03 18:23:24  INFO Players:80 - 151220099
+2017-04-03 18:23:24  INFO Players:80 - 151220100
+2017-04-03 18:23:24  INFO Players:80 - 151220101
+2017-04-03 18:23:24  INFO Players:80 - 151220103
+2017-04-03 18:23:24  INFO Players:80 - 151220104
+2017-04-03 18:23:24  INFO Players:80 - 151220105
+2017-04-03 18:23:24  INFO Players:80 - 151220106
+2017-04-03 18:23:24  INFO Players:80 - 151220107
+2017-04-03 18:23:24  INFO Players:80 - 151220109
+2017-04-03 18:23:24  INFO Players:80 - 151220110
+2017-04-03 18:23:24  INFO Players:80 - 151220112
+2017-04-03 18:23:24  INFO Players:80 - 151220113
+2017-04-03 18:23:24  INFO Players:80 - 151220114
+2017-04-03 18:23:24  INFO Players:80 - 151220115
+2017-04-03 18:23:24  INFO Players:80 - 151220116
+2017-04-03 18:23:24  INFO Players:80 - 151220117
+2017-04-03 18:23:24  INFO Players:80 - 151220118
+2017-04-03 18:23:24  INFO Players:80 - 151220119
+2017-04-03 18:23:24  INFO Players:80 - 151220121
+2017-04-03 18:23:24  INFO Players:80 - 151220123
+2017-04-03 18:23:24  INFO Players:84 - Total players: 31
+2017-04-03 18:23:24  INFO ClientConnectMonitor:59 - Creat server socket success!
+2017-04-03 18:23:24  INFO ClientConnectMonitor:61 - Server address is: 127.0.1.1:10086
+2017-04-03 18:23:24  INFO ClientConnectMonitor:63 - ClientConnectMonitor initialization complete!
+2017-04-03 18:23:24  INFO ClientConnectMonitor:73 - Start monitor...
+2017-04-03 18:23:24  INFO ClientConnectMonitor:81 - Waitting clients to access...
+2017-04-03 18:23:27 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-0.result
+2017-04-03 18:23:27 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-1.result
+2017-04-03 18:23:27 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-2.result
+2017-04-03 18:23:27 ERROR ContestResults:159 - Load sucess!
+2017-04-03 18:23:29  INFO RobotAIFactory:14 - Produce one Robot I
+2017-04-03 18:23:29  INFO RobotAIFactory:17 - Produce on Robot II
+2017-04-03 18:23:53  INFO RobotAIFactory:14 - Produce one Robot I
+2017-04-03 18:23:53  INFO RobotAIFactory:17 - Produce on Robot II
+2017-04-03 18:24:16 ERROR ContestResults:212 - Save sucess!
+2017-04-03 18:24:19 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-0.result
+2017-04-03 18:24:19 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-1.result
+2017-04-03 18:24:19 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-2.result
+2017-04-03 18:24:19 ERROR ContestResults:99 - Load total.result
+2017-04-03 18:24:19 ERROR ContestResults:159 - Load sucess!
+2017-04-03 18:24:43  INFO ServerProperties:43 - Read server.properties complete! The properties as follows: 
+2017-04-03 18:24:43  INFO ServerProperties:45 - ui.result.list.width=33
+2017-04-03 18:24:43  INFO ServerProperties:45 - ui.width=1064
+2017-04-03 18:24:43  INFO ServerProperties:45 - filter.out=0
+2017-04-03 18:24:43  INFO ServerProperties:45 - step.error.number=3
+2017-04-03 18:24:43  INFO ServerProperties:45 - server.port=10086
+2017-04-03 18:24:43  INFO ServerProperties:45 - chess.board.cols=15
+2017-04-03 18:24:43  INFO ServerProperties:45 - debug.robot.b=2
+2017-04-03 18:24:43  INFO ServerProperties:45 - robot.model=1
+2017-04-03 18:24:43  INFO ServerProperties:45 - ui.height=674
+2017-04-03 18:24:43  INFO ServerProperties:45 - debug.robot.a=1
+2017-04-03 18:24:43  INFO ServerProperties:45 - replay.speed=200
+2017-04-03 18:24:43  INFO ServerProperties:45 - round.steps=70
+2017-04-03 18:24:43  INFO ServerProperties:45 - server.mode=2
+2017-04-03 18:24:43  INFO ServerProperties:45 - contest.rounds=5
+2017-04-03 18:24:43  INFO ServerProperties:45 - chess.board.rows=15
+2017-04-03 18:24:43  INFO ServerProperties:45 - step.timeout=0
+2017-04-03 18:24:43  INFO Main:29 - Startup the main ui
+2017-04-03 18:24:44  INFO Players:66 - Load list file: players-0.list
+2017-04-03 18:24:44  INFO Players:72 - The players authoried in this round as follow:
+2017-04-03 18:24:44  INFO Players:80 - 123456789
+2017-04-03 18:24:44  INFO Players:80 - 131130070
+2017-04-03 18:24:44  INFO Players:80 - 131130072
+2017-04-03 18:24:44  INFO Players:80 - 141220009
+2017-04-03 18:24:44  INFO Players:80 - 151220092
+2017-04-03 18:24:44  INFO Players:80 - 151220093
+2017-04-03 18:24:44  INFO Players:80 - 151220094
+2017-04-03 18:24:44  INFO Players:80 - 151220095
+2017-04-03 18:24:44  INFO Players:80 - 151220096
+2017-04-03 18:24:44  INFO Players:80 - 151220097
+2017-04-03 18:24:44  INFO Players:80 - 151220098
+2017-04-03 18:24:44  INFO Players:80 - 151220099
+2017-04-03 18:24:44  INFO Players:80 - 151220100
+2017-04-03 18:24:44  INFO Players:80 - 151220101
+2017-04-03 18:24:44  INFO Players:80 - 151220103
+2017-04-03 18:24:44  INFO Players:80 - 151220104
+2017-04-03 18:24:44  INFO Players:80 - 151220105
+2017-04-03 18:24:44  INFO Players:80 - 151220106
+2017-04-03 18:24:44  INFO Players:80 - 151220107
+2017-04-03 18:24:44  INFO Players:80 - 151220109
+2017-04-03 18:24:44  INFO Players:80 - 151220110
+2017-04-03 18:24:44  INFO Players:80 - 151220112
+2017-04-03 18:24:44  INFO Players:80 - 151220113
+2017-04-03 18:24:44  INFO Players:80 - 151220114
+2017-04-03 18:24:44  INFO Players:80 - 151220115
+2017-04-03 18:24:44  INFO Players:80 - 151220116
+2017-04-03 18:24:44  INFO Players:80 - 151220117
+2017-04-03 18:24:44  INFO Players:80 - 151220118
+2017-04-03 18:24:44  INFO Players:80 - 151220119
+2017-04-03 18:24:44  INFO Players:80 - 151220121
+2017-04-03 18:24:44  INFO Players:80 - 151220123
+2017-04-03 18:24:44  INFO Players:84 - Total players: 31
+2017-04-03 18:24:44  INFO ClientConnectMonitor:59 - Creat server socket success!
+2017-04-03 18:24:44  INFO ClientConnectMonitor:61 - Server address is: 127.0.1.1:10086
+2017-04-03 18:24:44  INFO ClientConnectMonitor:63 - ClientConnectMonitor initialization complete!
+2017-04-03 18:24:44  INFO ClientConnectMonitor:73 - Start monitor...
+2017-04-03 18:24:44  INFO ClientConnectMonitor:81 - Waitting clients to access...
+2017-04-03 18:24:45 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-0.result
+2017-04-03 18:24:45 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-1.result
+2017-04-03 18:24:45 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-2.result
+2017-04-03 18:24:45 ERROR ContestResults:99 - Load total.result
+2017-04-03 18:24:45 ERROR ContestResults:159 - Load sucess!
+2017-04-03 18:25:06  INFO RobotAIFactory:14 - Produce one Robot I
+2017-04-03 18:25:06  INFO RobotAIFactory:17 - Produce on Robot II
+2017-04-03 18:26:31  INFO ServerProperties:43 - Read server.properties complete! The properties as follows: 
+2017-04-03 18:26:31  INFO ServerProperties:45 - ui.result.list.width=33
+2017-04-03 18:26:31  INFO ServerProperties:45 - ui.width=1064
+2017-04-03 18:26:31  INFO ServerProperties:45 - filter.out=0
+2017-04-03 18:26:31  INFO ServerProperties:45 - step.error.number=3
+2017-04-03 18:26:31  INFO ServerProperties:45 - server.port=10086
+2017-04-03 18:26:31  INFO ServerProperties:45 - chess.board.cols=15
+2017-04-03 18:26:31  INFO ServerProperties:45 - debug.robot.b=2
+2017-04-03 18:26:31  INFO ServerProperties:45 - robot.model=1
+2017-04-03 18:26:31  INFO ServerProperties:45 - ui.height=674
+2017-04-03 18:26:31  INFO ServerProperties:45 - debug.robot.a=1
+2017-04-03 18:26:31  INFO ServerProperties:45 - replay.speed=200
+2017-04-03 18:26:31  INFO ServerProperties:45 - round.steps=70
+2017-04-03 18:26:31  INFO ServerProperties:45 - server.mode=2
+2017-04-03 18:26:31  INFO ServerProperties:45 - contest.rounds=5
+2017-04-03 18:26:31  INFO ServerProperties:45 - chess.board.rows=15
+2017-04-03 18:26:31  INFO ServerProperties:45 - step.timeout=0
+2017-04-03 18:26:31  INFO Main:29 - Startup the main ui
+2017-04-03 18:26:32  INFO Players:66 - Load list file: players-0.list
+2017-04-03 18:26:32  INFO Players:72 - The players authoried in this round as follow:
+2017-04-03 18:26:32  INFO Players:80 - 123456789
+2017-04-03 18:26:32  INFO Players:80 - 131130070
+2017-04-03 18:26:32  INFO Players:80 - 131130072
+2017-04-03 18:26:32  INFO Players:80 - 141220009
+2017-04-03 18:26:32  INFO Players:80 - 151220092
+2017-04-03 18:26:32  INFO Players:80 - 151220093
+2017-04-03 18:26:32  INFO Players:80 - 151220094
+2017-04-03 18:26:32  INFO Players:80 - 151220095
+2017-04-03 18:26:32  INFO Players:80 - 151220096
+2017-04-03 18:26:32  INFO Players:80 - 151220097
+2017-04-03 18:26:32  INFO Players:80 - 151220098
+2017-04-03 18:26:32  INFO Players:80 - 151220099
+2017-04-03 18:26:32  INFO Players:80 - 151220100
+2017-04-03 18:26:32  INFO Players:80 - 151220101
+2017-04-03 18:26:32  INFO Players:80 - 151220103
+2017-04-03 18:26:32  INFO Players:80 - 151220104
+2017-04-03 18:26:32  INFO Players:80 - 151220105
+2017-04-03 18:26:32  INFO Players:80 - 151220106
+2017-04-03 18:26:32  INFO Players:80 - 151220107
+2017-04-03 18:26:32  INFO Players:80 - 151220109
+2017-04-03 18:26:32  INFO Players:80 - 151220110
+2017-04-03 18:26:32  INFO Players:80 - 151220112
+2017-04-03 18:26:32  INFO Players:80 - 151220113
+2017-04-03 18:26:32  INFO Players:80 - 151220114
+2017-04-03 18:26:32  INFO Players:80 - 151220115
+2017-04-03 18:26:32  INFO Players:80 - 151220116
+2017-04-03 18:26:32  INFO Players:80 - 151220117
+2017-04-03 18:26:32  INFO Players:80 - 151220118
+2017-04-03 18:26:32  INFO Players:80 - 151220119
+2017-04-03 18:26:32  INFO Players:80 - 151220121
+2017-04-03 18:26:32  INFO Players:80 - 151220123
+2017-04-03 18:26:32  INFO Players:84 - Total players: 31
+2017-04-03 18:26:32  INFO ClientConnectMonitor:59 - Creat server socket success!
+2017-04-03 18:26:32  INFO ClientConnectMonitor:61 - Server address is: 127.0.1.1:10086
+2017-04-03 18:26:32  INFO ClientConnectMonitor:63 - ClientConnectMonitor initialization complete!
+2017-04-03 18:26:32  INFO ClientConnectMonitor:73 - Start monitor...
+2017-04-03 18:26:32  INFO ClientConnectMonitor:81 - Waitting clients to access...
+2017-04-03 18:26:35 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-0.result
+2017-04-03 18:26:35 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-1.result
+2017-04-03 18:26:35 ERROR ContestResults:99 - Load RobotIvsRobotII-debug-2.result
+2017-04-03 18:26:35 ERROR ContestResults:99 - Load total.result
+2017-04-03 18:26:35 ERROR ContestResults:159 - Load sucess!

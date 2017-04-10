@@ -1,0 +1,16 @@
+2017-04-10 21:25:14  INFO ContestServiceRunnable:54 - 131130072vs131130070-contest-0 begin!
+2017-04-10 21:25:14  INFO ContestServiceRunnable:54 - 123456789vs141220009-contest-1 begin!
+2017-04-10 21:25:14  INFO ContestServiceRunnable:64 - 131130072vs131130070-contest-0 round 0 start
+2017-04-10 21:25:14  INFO ContestServiceRunnable:64 - 123456789vs141220009-contest-1 round 0 start
+2017-04-10 21:26:15  INFO ContestServiceRunnable:358 - 131130072vs131130070-contest-0 round 0 end
+2017-04-10 21:26:15  INFO ContestServiceRunnable:358 - 123456789vs141220009-contest-1 round 0 end
+2017-04-10 21:26:15  INFO ContestServiceRunnable:64 - 131130072vs131130070-contest-0 round 1 start
+2017-04-10 21:26:15  INFO ContestServiceRunnable:64 - 123456789vs141220009-contest-1 round 1 start
+2017-04-10 21:27:15  INFO ContestServiceRunnable:358 - 123456789vs141220009-contest-1 round 1 end
+2017-04-10 21:27:15  INFO ContestServiceRunnable:358 - 131130072vs131130070-contest-0 round 1 end
+2017-04-10 21:27:15  INFO ContestServiceRunnable:383 - 123456789vs141220009-contest-1 game over
+2017-04-10 21:27:15  INFO ContestServiceRunnable:383 - 131130072vs131130070-contest-0 game over
+2017-04-10 21:27:15  INFO ContestServiceRunnable:390 - 123456789vs141220009-contest-1 result save completed!
+2017-04-10 21:27:15  INFO ContestServiceRunnable:390 - 131130072vs131130070-contest-0 result save completed!
+2017-04-10 21:27:15  INFO ContestServiceRunnable:395 - 123456789vs141220009-contest-1 record save completed!
+2017-04-10 21:27:15  INFO ContestServiceRunnable:395 - 131130072vs131130070-contest-0 record save completed!
