@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GobangServer.iml" filepath="$PROJECT_DIR$/GobangServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gobang.iml" filepath="$PROJECT_DIR$/Gobang.iml" />
     </modules>
   </component>
 </project>

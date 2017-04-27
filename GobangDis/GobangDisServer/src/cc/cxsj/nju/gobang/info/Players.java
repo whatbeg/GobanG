@@ -185,6 +185,7 @@ public class Players {
 		if (id == null)
 			return null;
 		synchronized (playersInfo) {
+			// System.out.println(playersInfo.get(id));
 			return playersInfo.get(id);
 		}
 	}

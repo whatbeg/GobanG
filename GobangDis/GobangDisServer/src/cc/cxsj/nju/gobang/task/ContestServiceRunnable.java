@@ -473,13 +473,13 @@ public class ContestServiceRunnable implements Runnable{
             result.evaluate();
             ContestResults.addContestResult(result);
             saveResult();
-            LOG.info(this.info + " result save completed!");
-            MainFrame.instance().log(this.info + " result save completed!");
+            LOG.info(this.info + " result save done!");
+            MainFrame.instance().log(this.info + " result save done!");
 
             // store record into file
             saveRecord();
             LOG.info(this.info + " record save completed!");
-            MainFrame.instance().log(this.info + " record save completed!");
+            MainFrame.instance().log(this.info + " record save done!");
 
             // release
             players[0].clear();

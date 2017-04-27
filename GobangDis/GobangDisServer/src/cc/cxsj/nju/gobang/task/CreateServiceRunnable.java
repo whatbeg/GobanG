@@ -10,6 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 
+import cc.cxsj.nju.gobang.Main;
 import cc.cxsj.nju.gobang.config.ServerProperties;
 import cc.cxsj.nju.gobang.info.Player;
 import cc.cxsj.nju.gobang.info.Players;
@@ -28,6 +29,7 @@ public class CreateServiceRunnable extends Thread {
 
 	private BlockingQueue<Socket> sockets;
 	private ArrayList<Player> matchPlayerList;
+	private HashSet<Player> matchPlayerSet;
 	private ExecutorService executor;
 
 	public static CreateServiceRunnable instance() {
@@ -77,6 +79,7 @@ public class CreateServiceRunnable extends Thread {
 		}
 		this.sockets = new LinkedBlockingQueue<Socket>();
 		this.matchPlayerList = new ArrayList<Player>();
+		this.matchPlayerSet = new HashSet<Player>();
 		this.executor = Executors.newFixedThreadPool(Players.getPlayersNum() / 2 + 1);
 		LOG.info("CreateServiceRunnable initialization complete!");
 		MainFrame.instance().log("CreateServiceRunnable initialization complete!");
@@ -107,10 +110,10 @@ public class CreateServiceRunnable extends Thread {
 			BufferedInputStream bfin = null;
 			try {
 				// blocking to get two socket
-				while (!Thread.currentThread().isInterrupted() && matchPlayerList.size() != Players.getPlayersNum()) {
+				while (!Thread.currentThread().isInterrupted() && matchPlayerSet.size() != Players.getPlayersNum()) {
 
-					LOG.info("The number of registered players: " + matchPlayerList.size());
-					MainFrame.instance().log("The number of registered players: " + matchPlayerList.size());
+					LOG.info("The number of registered players: " + matchPlayerSet.size());
+					MainFrame.instance().log("The number of registered players: " + matchPlayerSet.size());
 
 					while (!Thread.currentThread().isInterrupted()) {
 						try {
@@ -161,7 +164,7 @@ public class CreateServiceRunnable extends Thread {
 
 						String msg = new String(buffer);
 						Arrays.fill(buffer, (byte) 0);
-						if (msg.charAt(0) == 'A') {
+						if (msg.charAt(0) == 'A' && msg.length() == 16) {
 							String id = msg.substring(1, 10);
 							if (isFilterOut && isContested.contains(id)) {
 								LOG.error("The " + id + " has participated in the contest");
@@ -179,7 +182,7 @@ public class CreateServiceRunnable extends Thread {
 							String password = msg.substring(10, 16);
 							LOG.info("Accepted " + id);
 							MainFrame.instance().log("Accepted " + id);
-							if (Players.isContainedPlayer(id)) {
+							if (Players.isContainedPlayer(id) && !matchPlayerSet.contains(Players.getPlayer(id))) {
 								user = Players.getPlayer(id);
 								if (user.getPassword().equals(password)) {
 									try {
@@ -192,6 +195,7 @@ public class CreateServiceRunnable extends Thread {
 										continue;
 									}
 									isContested.add(id);
+									matchPlayerSet.add(user);
 									matchPlayerList.add(user);
 									LOG.info("Welcome " + id);
 									MainFrame.instance().log("Welcome " + id);
@@ -250,7 +254,9 @@ public class CreateServiceRunnable extends Thread {
 				}
 
 				if (!Thread.currentThread().isInterrupted()) {
-					LOG.info("The number of registered players: " + matchPlayerList.size());
+					LOG.info("The number of registered players: " + matchPlayerSet.size());
+					for (int i = 0; i < matchPlayerList.size(); i++)
+                        MainFrame.instance().log(matchPlayerList.get(i).toString());
 					MainFrame.instance().log("The number of registered players: " + matchPlayerList.size());
 					Collections.shuffle(matchPlayerList, new Random(System.currentTimeMillis()));
 					if (matchPlayerList.size() % 2 == 0) {
@@ -278,9 +284,9 @@ public class CreateServiceRunnable extends Thread {
 					}
 				}
 			} finally {
-				LOG.info("All peer contest done!");
-				MainFrame.instance().log("All peer contest done!");
-				System.out.println("All peer contest done!");
+//				LOG.info("All peer contest done!");
+//				MainFrame.instance().log("All peer contest done!");
+//				System.out.println("All peer contest done!");
 			}
 			break;
 		}

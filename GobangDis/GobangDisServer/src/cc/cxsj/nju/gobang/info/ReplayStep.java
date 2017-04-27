@@ -11,12 +11,8 @@ public class ReplayStep {
 	private static final int COLS = Integer.valueOf(ServerProperties.instance().getProperty("chess.board.cols"));
     static String path_black = System.getProperty("user.dir") + "/Icons/black.png";
     static String path_white = System.getProperty("user.dir") + "/Icons/white.png";
-	// static String path_empty = System.getProperty("user.dir") + "/Icons/empty.png";
-    // Icon icon = new ImageIcon(path);
     public static Icon icon_b = getImageIcon(path_black, 22, 22);
     public static Icon icon_w = getImageIcon(path_white, 22, 22);
-    // public static Icon icon_e = getImageIcon(path_empty, 22, 22);
-    // JLabel label = new JLabel(icon2, JLabel.CENTER);
 	private static Icon[] trans2label = new Icon[]{icon_b, icon_w};
 	
 	public String step = null;

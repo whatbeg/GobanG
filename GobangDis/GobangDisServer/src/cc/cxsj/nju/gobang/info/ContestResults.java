@@ -37,6 +37,8 @@ public class ContestResults {
 	}
 	
 	public static synchronized ContestResult getContestResult(Integer id) {
+//	    System.out.println("ENTRY SET: " + contestResults.get(id).toString());
+//	    System.out.println("Get " + contestResults.get(id).toString());
 		return contestResults.get(id);
 	}
 	
@@ -91,6 +93,9 @@ public class ContestResults {
 				return matcher.matches();
 			}
 		});
+//		for (int i = 0; i < files.length; i++) {
+//		    System.out.println(files[i].getAbsolutePath());
+//        }
 		HashMap<Integer, ContestResult> results = new HashMap<Integer, ContestResult>();
 		for (int i = 0; i < files.length; i++) {
 			ContestResult result = new ContestResult();
@@ -101,11 +106,11 @@ public class ContestResults {
 					MainFrame.instance().log("Load " + files[i].getName());
 					String line = in.readLine();
 					String[] l1 = line.split(" ");
-					result.id = Integer.valueOf(l1[1]);
+					result.id = Integer.valueOf(l1[1]);    // CONTEST/TEST/DEBUG 0
 					
 					line = in.readLine();
 					String[] l2 = line.split(" ");
-					if (l2[3].contains("Robot")) {
+					if (l2[1].contains("Robot")) {
 						result.players[0] = new Player(l2[1], l2[1]);
 					} else {
 						result.players[0] = Players.getPlayer(l2[1]);
@@ -117,23 +122,23 @@ public class ContestResults {
 					}
 					
 					
-					line = in.readLine();
+					line = in.readLine();          // winner, actually line 3
 					String[] l22 = line.split(" ");
 					result.winner = Integer.valueOf(l22[1]);
 					
-					line = in.readLine();
+					line = in.readLine();       // winscore
 					String[] l3 = line.split(" ");
 					result.winRound[0] = Integer.valueOf(l3[1].split(":")[0]);
 					result.winRound[1] = Integer.valueOf(l3[1].split(":")[1]);
 					
-					line = in.readLine();
+					line = in.readLine();       // SCORE of ROUND
 					String[] l4 = line.split(" ");
 					for (int j = 1; j < l4.length; j++) {
 						result.scores[0][j - 1] = Integer.valueOf(l4[j].split(":")[0]);
 						result.scores[1][j - 1] = Integer.valueOf(l4[j].split(":")[1]);
 					}
 					
-					line = in.readLine();
+					line = in.readLine();        // STEP NUMBER OF ROUND
 					String[] l5 = line.split(" ");
 					for (int j = 1; j < l5.length; j++) {
 						result.stepsNum[j - 1] = Integer.valueOf(l5[j]);
@@ -145,6 +150,13 @@ public class ContestResults {
 						result.errors[0][j - 1] = Integer.valueOf(l6[j].split(":")[0]);
 						result.errors[1][j - 1] = Integer.valueOf(l6[j].split(":")[1]);
 					}
+
+					line = in.readLine();
+					String [] l7 = line.split(" ");
+                    for (int j = 1; j < l7.length; j++) {
+                        result.timecost[0][j - 1] = Integer.valueOf(l7[j].split(":")[0]);
+                        result.timecost[1][j - 1] = Integer.valueOf(l7[j].split(":")[1]);
+                    }
 					results.put(result.id, result);
 				} finally {
 					in.close();
@@ -154,6 +166,7 @@ public class ContestResults {
 				MainFrame.instance().log(e.toString());
 			}
 		}
+        // System.out.println(results.keySet());
 		if (!results.isEmpty()) {
 			contestResults.clear();
 			contestResults = results;
@@ -199,6 +212,7 @@ public class ContestResults {
 				dir.mkdir();
 			}
 			File file = new File(path + sep + "total.result");
+			System.out.println("Save total.results to " + file.getAbsolutePath());
 			if (!file.exists()) {
 				file.createNewFile();
 			} else {

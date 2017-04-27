@@ -1,9 +1,9 @@
 package cc.cxsj.nju.gobang.ai;
 
 public enum RobotAIModel {
-	RobotO,
-	RobotI,
-	RobotII,
-	RobotIII,
-	RobotIV
+	RobotOmega,
+	RobotAlpha,
+	RobotBeta,
+	RobotGamma,
+	RobotLambda
 }

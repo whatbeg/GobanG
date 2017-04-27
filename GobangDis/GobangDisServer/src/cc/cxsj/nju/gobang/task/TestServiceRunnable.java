@@ -456,13 +456,13 @@ public class TestServiceRunnable implements Runnable{
             result.evaluate();  // evaluate who is winner
             ContestResults.addContestResult(result);  // ContestResults.put(id, result)
             saveResult();                             // save results to file, PrintWriter.println()
-            LOG.info(this.info + " result save completed!");
-            MainFrame.instance().log(this.info + " result save completed!");
+            LOG.info(this.info + " result save done!");
+            MainFrame.instance().log(this.info + " result save done!");
 
             // store record into file, make one file for every round
             saveRecord();
-            LOG.info(this.info + " record save completed!");
-            MainFrame.instance().log(this.info + " record save completed!");
+            LOG.info(this.info + " record save done!");
+            MainFrame.instance().log(this.info + " record save done!");
 
             // release players, game over
             players[0].clear();

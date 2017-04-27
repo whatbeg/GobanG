@@ -621,9 +621,9 @@ public class MainFrame extends JFrame {
 	private void refreshResultListModal() {
 		resultsIdList = ContestResults.getContestIdsOrderly();
 		int resultNum = resultsIdList.size();
+		System.out.println("ResultsIdList has " + resultNum);
 		if (resultNum == 0) {
 			resultListModel.clear();
-            System.out.println("ResultsIdList has " + resultNum);
 			return;
 		}
 		resultsIdList.sort(new Comparator<Integer>() {

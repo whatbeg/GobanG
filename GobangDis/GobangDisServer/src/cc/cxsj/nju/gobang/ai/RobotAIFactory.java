@@ -9,15 +9,17 @@ public class RobotAIFactory {
 	
 	public static RobotAI produceRobotAIof(RobotAIModel model) {
 		switch (model) {
-			case RobotO:
-			case RobotI:
-				LOG.info("Produce one Robot I");
+			case RobotOmega:
+//                LOG.info("Produce Robot Omega");
+//                return new RobotO();
+			case RobotAlpha:
+				LOG.info("Produce one Robot Alpha");
 				return new RobotI();
-			case RobotII:
-				LOG.info("Produce on Robot II");
+			case RobotBeta:
+				LOG.info("Produce on Robot Beta");
 				return new RobotII();
-			case RobotIII:
-			case RobotIV:
+			case RobotGamma:
+            case RobotLambda:
 			default:
 				LOG.info("Robot Factory can not produce this model Robot!");
 				System.exit(0);
