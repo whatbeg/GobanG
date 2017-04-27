@@ -1,6 +1,6 @@
 #pragma once
 
-#define  ID          "123456789"        // your id
-#define  PASSWORD    "000000"           // your password
-#define  SERVER_IP   "172.28.46.69"	    // server ip
+#define  ID          "111111112"        // your id
+#define  PASSWORD    "123456"           // your password
+#define  SERVER_IP   "127.0.0.1"	    // server ip
 #define  SERVER_PORT 10087				// server port

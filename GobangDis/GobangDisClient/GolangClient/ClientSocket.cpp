@@ -14,13 +14,13 @@ char sendBuf[BUFSIZE];    // send buffer
 
 int connectServer()
 {
-	std::cout << "Server IP: ";
-	char IP[15] = {"127.0.0.1"};
-	int PORT = 10087;
+	// std::cout << "Server IP: ";
+	// char IP[15] = {"127.0.0.1"};
+	// int PORT = 10087;
 	// std::cin >> IP;
-	std::cout << "Server PORT: ";
+	// std::cout << "Server PORT: ";
 	// std::cin >> PORT;
-    std::cout << "Connect server: " << IP << ":" << PORT << std::endl;
+    std::cout << "Connect server: " << SERVER_IP << ":" << SERVER_PORT << std::endl;
 	int rtn = 0, err = 0;
 	WSADATA wsaData;
 	// initialize windows socket library
@@ -42,14 +42,14 @@ int connectServer()
 	// server address
 	memset(&server, 0, sizeof(SOCKADDR_IN));
 	server.sin_family = PF_INET;
-	server.sin_port = htons(PORT);
-	server.sin_addr.s_addr = inet_addr(IP);
+	server.sin_port = htons(SERVER_PORT);
+	server.sin_addr.s_addr = inet_addr(SERVER_IP);
 	// connect
 	err = connect(client, (struct sockaddr *) &server, sizeof(SOCKADDR_IN));
 	if (err < 0)
 	{
 		std::cout << "Connect failed with error: " << err << std::endl;
-		printf("%d\n", WSAGetLastError);
+		// printf("%d\n", WSAGetLastError);
 		rtn = 3;
 		return rtn;
 	}
